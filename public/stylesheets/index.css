@@ -1,4 +1,4 @@
-body{
+body {
     background-color: yellow;
 }
 
@@ -6,6 +6,10 @@ body{
     text-align: center;
 }
 
-.container{
+.container {
     margin-top: 65px;
+}
+
+div {
+    margin-top: 2em;
 }
