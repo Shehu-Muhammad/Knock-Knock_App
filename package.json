@@ -1,0 +1,26 @@
+{
+  "name": "knock-knock_app",
+  "version": "1.0.0",
+  "description": "An application that prints out knock-knock-jokes to the user when a button is clicked.",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shehu-Muhammad/Knock-Knock_App.git"
+  },
+  "author": "Shehu Muhammad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shehu-Muhammad/Knock-Knock_App/issues"
+  },
+  "homepage": "https://github.com/Shehu-Muhammad/Knock-Knock_App#readme"
+}
