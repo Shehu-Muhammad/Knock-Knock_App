@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Knock Knock</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href= "stylesheets/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Knock Knock Joke Page</h1>
+        <a href="/" class="btn btn-default btn-info">Go back</a>
+        <button id="button" class="btn btn-default btn-info">Start Joke</button>
+        <div id="joke"></div>
+    </div>
+    <script>
+        const knockknock = require('knock-knock-jokes');
+        let buttonId = document.getElementById("button");
+        let joke = document.getElementById("joke");
+        buttonId.addEventListener("click",function(){
+            joke.innerHTML = knockknock();
+        })
+    </script> 
+</body>
+</html>
