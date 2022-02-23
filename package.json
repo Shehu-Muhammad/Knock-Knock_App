@@ -4,9 +4,9 @@
   "description": "An application that prints out knock-knock-jokes to the user when a button is clicked.",
   "main": "app.js",
   "dependencies": {
-    "ejs": "^2.6.2",
-    "express": "^4.17.1",
-    "nodemon": "^1.19.1",
+    "ejs": "^2.7.4",
+    "express": "^4.17.3",
+    "nodemon": "^1.19.4",
     "path": "^0.12.7"
   },
   "devDependencies": {},
